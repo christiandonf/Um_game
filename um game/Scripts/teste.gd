@@ -1,29 +1,4 @@
-#teste 
-
-
-#teste 
-
-
-
-
-#teste 
-
-
-
-
-
-#teste 
-
-
-
-
-
-#teste 
-
-
-
-
-
-#teste
-
-#essa é uma mensagem para o bundão do alex que pode não ter medo de fantasmas ou coisas parecidas mas tem muito medo de ter a bunda comida por tais fantasmas kskskskskskskkssk
+#Desafio 
+#Criar um personagem 2D que se move pela tela
+#Criar um Item coletável que o personagem possa interagir
+#Ao personagem Interagir aumentar a velocidade de movimento do mesmo
