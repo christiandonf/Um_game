@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="um game"
-run/main_scene="res://player.tscn"
+run/main_scene="res://Nodes/player.tscn"
 config/icon="res://icon.png"
 
 [display]
