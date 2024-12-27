@@ -6,9 +6,10 @@
 [node name="main" type="Node2D"]
 
 [node name="Game-title" type="Sprite" parent="."]
+visible = false
 position = Vector2( 248, 382 )
 scale = Vector2( 0.4634, 0.639319 )
 texture = ExtResource( 1 )
 
 [node name="player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 100, 300 )
+position = Vector2( 244, 345 )
