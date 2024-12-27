@@ -2,6 +2,7 @@ extends AnimatedSprite
 
 # Declare member variables here. Examples:
 const SPEED : int = 400
+var screen_size
 export var cocacola : float = 1
 export var jogo : bool = false
 var vida : int = 15
@@ -12,6 +13,7 @@ func _gethealth():
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	screen_size = get_viewport_rect().size
 	vida = 20.1
 	print(_gethealth())
 
@@ -21,4 +23,4 @@ func _process(delta):
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * SPEED * cocacola
 	position += velocity * delta
-	
+	position = position.clamp(Vector2.ZERO, screen_size)
