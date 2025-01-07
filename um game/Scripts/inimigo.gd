@@ -14,3 +14,4 @@ func _physics_process(delta: float) -> void:
 		distance_to_player = position.distance_to(target.position)
 		if distance_to_player <= chase_range:
 			move_and_slide(position.direction_to(target.position)*SPEED)
+			look_at(target.position)
